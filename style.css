@@ -1,35 +1,6 @@
-body {
-    background-color: rgb(240, 216, 151);
-}
-footer {
-    background-color: rgb(99, 9, 9);
-    color: rgb(28, 224, 238);
-}
-footer {
-    background-color: rgb(231, 185, 185);
-    color: rgb(149, 168, 233);
-    position: fixed;
-    bottom: 0;
-}
-footer {
-    background-color: rgb(12, 84, 240);
-    color: rgb(40, 163, 15);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-footer p {
-    text-align: center;
-}
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-}
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
+
+
+
 body {
     background-color: rgb(219, 142, 165);
     font-family: Bai Jamjuree;
@@ -42,7 +13,20 @@ body {
 .cartao {
     margin: 1rem 1rem;
     background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+
 }
 
+.cartao__conteudo{
+    text-align: center;
+    height: 100%;
+    background-color: brown;
+}
 
-
+.cartao__conteudo h3{
+    background-color: blueviolet;
+    text-align: left;
+    padding: 0.5rem;
+}
