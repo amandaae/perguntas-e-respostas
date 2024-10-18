@@ -32,8 +32,8 @@ body {
 }
 
 footer{
-    background-color: antiquewhite;
-    color: aqua;
+    background-color: rgb(243, 243, 243);
+    color: rgb(126, 19, 94);
     position: fixed;
     bottom: 0;
     width: 100%;
