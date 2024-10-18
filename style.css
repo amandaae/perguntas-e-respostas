@@ -30,3 +30,18 @@ body {
     text-align: left;
     padding: 0.5rem;
 }
+
+footer{
+    background-color: antiquewhite;
+    color: aqua;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+
+}
