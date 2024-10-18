@@ -23,12 +23,17 @@ body {
     text-align: center;
     height: 100%;
     background-color: rgb(228, 166, 214);
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao__conteudo h3{
     background-color: rgb(126, 19, 94);
     text-align: left;
     padding: 0.5rem;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
 
 footer{
