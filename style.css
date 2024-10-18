@@ -36,6 +36,21 @@ body {
     font-size: 1vw;
     backface-visibility: hidden;
 }
+.cartao__conteudo p{
+    margin-top: 1rem;
+    padding: 2rem;
+
+}
+
+.cartao:hover .cartao__conteudo{
+    transform: rotateY(180deg);
+}
+
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta{
+    backface-visibility: hidden;
+}
 
 footer{
     background-color: rgb(243, 243, 243);
